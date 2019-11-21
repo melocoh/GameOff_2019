@@ -5,7 +5,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-/Assets/AssetStoreTools*
+Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
