@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: 3358a8139b62cd24bba18cc97c396218
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4653147035852573661
+    second: pepejr_sheet_0
+  - first:
+      213: 322596238190166219
+    second: pepejr_sheet_1
+  - first:
+      213: -1982634687917999005
+    second: pepejr_sheet_2
+  - first:
+      213: -7177641193572719632
+    second: pepejr_sheet_3
+  - first:
+      213: -775716380358084467
+    second: pepejr_sheet_4
+  - first:
+      213: 4868075563162738712
+    second: pepejr_sheet_5
+  - first:
+      213: -3419145620451294619
+    second: pepejr_sheet_6
+  - first:
+      213: 7464359201629853054
+    second: pepejr_sheet_7
+  - first:
+      213: -5352941737740949451
+    second: pepejr_sheet_8
+  - first:
+      213: -2196808372422800798
+    second: pepejr_sheet_9
+  - first:
+      213: -6821234740444547324
+    second: pepejr_sheet_10
+  - first:
+      213: -5536151836515649480
+    second: pepejr_sheet_11
+  - first:
+      213: 5009994022024712331
+    second: pepejr_sheet_12
+  - first:
+      213: 8860337149105241844
+    second: pepejr_sheet_13
+  - first:
+      213: -7297186255975733868
+    second: pepejr_sheet_14
+  - first:
+      213: -2102921050357127665
+    second: pepejr_sheet_15
+  - first:
+      213: -2771980975382642659
+    second: pepejr_sheet_16
+  - first:
+      213: 7760595212402758935
+    second: pepejr_sheet_17
+  - first:
+      213: -70522884111787186
+    second: pepejr_sheet_18
+  - first:
+      213: 9203654305100221400
+    second: pepejr_sheet_19
+  - first:
+      213: -463617664598860019
+    second: pepejr_sheet_20
+  - first:
+      213: -1963552245805284461
+    second: pepejr_sheet_21
+  - first:
+      213: 490654055099813112
+    second: pepejr_sheet_22
+  - first:
+      213: 1007531668256740983
+    second: pepejr_sheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pepejr_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 180
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400d51c6e0b26b418fac86fb2c4d28b
+      internalID: 4653147035852573661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 180
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753e443d16fccc848a714b22fd7c2ec0
+      internalID: 322596238190166219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 180
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b02ec3bbeb474744ad7646387707f02
+      internalID: -1982634687917999005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 181
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d136959961fe5ca4196c2fc77e9124b9
+      internalID: -7177641193572719632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 181
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504cb1f922b483b43913e6e87bd4307c
+      internalID: -775716380358084467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 181
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d617232a8095a194da1b72dcbf8f8776
+      internalID: 4868075563162738712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 181
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32bc077a91c39a408275adb440a2a4c
+      internalID: -3419145620451294619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 124
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f33ff3255c044bbcc3078b6d31816
+      internalID: 7464359201629853054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 123
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aab11fad4defa4a9b6f526ed83ca21
+      internalID: -5352941737740949451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 123
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad261fdbf19a64da4ef955e4e0bef3
+      internalID: -2196808372422800798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 123
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b34a5dcf44e5418ef589a12824623
+      internalID: -6821234740444547324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 123
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c27230c98f517149a5d322b2a289986
+      internalID: -5536151836515649480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 65
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613ea73283c029645a2966ac8de8f29b
+      internalID: 5009994022024712331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b634b29659734b8f68e758a126055
+      internalID: 8860337149105241844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 66
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ec3306b6814f84a9eb06c90d61784d
+      internalID: -7297186255975733868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 65
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc286539fa1217479c8c003870fa815
+      internalID: -2102921050357127665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 65
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9840b184b032b4db0629d95bcefc74
+      internalID: -2771980975382642659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 64
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43375c2d7da6bd4ead03fa1ffc6bb27
+      internalID: 7760595212402758935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a04a8737ed0d564b84bbe1344c11a68
+      internalID: -70522884111787186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8d41447a51bd340ba541539bc57d7c
+      internalID: 9203654305100221400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f88c7f61316364ab85dd1131af1fdb
+      internalID: -463617664598860019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 8
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740deaec6fc94a149841295b31c60865
+      internalID: -1963552245805284461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 8
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70244735f79f1f47a2425ae375ecbcf
+      internalID: 490654055099813112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pepejr_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 7
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57f10c97870b5c48aa743fcc51266d5
+      internalID: 1007531668256740983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
