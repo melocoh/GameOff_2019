@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class BlockSpawner : MonoBehaviour
 {
+    SpriteRenderer mySprite;
+
     [SerializeField] private GameObject[] blocks;
+    [SerializeField] private Sprite[] blockTrace;
+
     [SerializeField] private float grid = 0.5f;
     [SerializeField] private float x=0f, y=0f;
 
@@ -13,6 +17,7 @@ public class BlockSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        mySprite = GetComponentInChildren<SpriteRenderer>();
         blockChoice = 0;
     }
 
@@ -45,14 +50,18 @@ public class BlockSpawner : MonoBehaviour
         if (Input.GetKeyUp("e")) {
             if (blockChoice == blocks.Length - 1) {
                 blockChoice = 0;
+                mySprite.sprite = blockTrace[blockChoice];
             } else {
                 blockChoice++;
+                mySprite.sprite = blockTrace[blockChoice];
             }
         } else if (Input.GetKeyUp("q")) {
             if (blockChoice == 0) {
                 blockChoice = blocks.Length - 1;
+                mySprite.sprite = blockTrace[blockChoice];
             } else {
                 blockChoice--;
+                mySprite.sprite = blockTrace[blockChoice];
             }
         }
     }

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     // Config
     [SerializeField] private float runSpeed = 4f;
     [SerializeField] private float jumpSpeed = 8f;
+    [SerializeField] private Vector3 startPos;
 
     // State
     private bool isDead;
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         myBodyCollider = GetComponent<CircleCollider2D>();
         myFeet = GetComponent<BoxCollider2D>();
+        startPos = new Vector3(transform.position.x, transform.position.y);
     }
 
     // Update is called once per frame
@@ -53,7 +56,7 @@ public class Player : MonoBehaviour
     private void FlipSprite() {
         bool isMoving = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
         if (isMoving) {
-            transform.localScale = new Vector2(Mathf.Sign(-myRigidBody.velocity.x), 1f);
+            transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x), 1f);
         }
     }
 }

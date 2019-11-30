@@ -13,6 +13,6 @@ public class Block : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = SnapToGrid.gridPos(transform.position);
+
     }
 }
