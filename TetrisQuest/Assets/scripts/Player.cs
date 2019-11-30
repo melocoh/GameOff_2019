@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     Animator myAnimator;
     CircleCollider2D myBodyCollider;
     BoxCollider2D myFeet;
+    Scene scene;
 
     // Start is called before the first frame update
     void Start() {
@@ -26,16 +27,27 @@ public class Player : MonoBehaviour
         myBodyCollider = GetComponent<CircleCollider2D>();
         myFeet = GetComponent<BoxCollider2D>();
         startPos = new Vector3(transform.position.x, transform.position.y);
+        scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
     void Update() {
         Jump();
+        CheckDeath();
     }
 
     void FixedUpdate() {
         Run();
         FlipSprite();
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        Debug.Log("Collision.");
+        if (col.gameObject.tag == "Hazard")
+        {
+            isDead = true;
+        }
     }
 
     private void Run() {
@@ -57,6 +69,14 @@ public class Player : MonoBehaviour
         bool isMoving = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
         if (isMoving) {
             transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x), 1f);
+        }
+    }
+
+    private void CheckDeath()
+    {
+        if (isDead)
+        {
+            SceneManager.LoadScene(scene.name);
         }
     }
 }

@@ -34,8 +34,15 @@ public class BlockSpawner : MonoBehaviour
         transform.position = SnapToGrid.mouseGridPos();
     }
 
+    private bool spawnCheck()
+    {
+        int layerMask = 1 << 8;
+        Collider2D colliders = Physics2D.OverlapCircle(transform.position, 0.75f, layerMask);
+        return (colliders != null);
+    }
+
     private void MakeBlock() {
-        if (Input.GetMouseButtonUp(0)) {
+        if (Input.GetMouseButtonUp(0) && !spawnCheck()) {
             GameObject newBlock = Instantiate(blocks[blockChoice], transform.position, transform.rotation) as GameObject;
         }
     }
@@ -65,4 +72,7 @@ public class BlockSpawner : MonoBehaviour
             }
         }
     }
+
+    
+
 }
