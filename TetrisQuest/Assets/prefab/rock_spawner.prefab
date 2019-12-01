@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5525155348462307339}
   - component: {fileID: 2485779779917254207}
+  - component: {fileID: -7802225539518775818}
+  - component: {fileID: 1986113714680101174}
   m_Layer: 0
   m_Name: rock_spawner
   m_TagString: Untagged
@@ -44,3 +46,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rock: {fileID: 9102492519856328144, guid: 294b58b89da249b49b404bc94dee4289, type: 3}
+  dropInterval: 2
+--- !u!61 &-7802225539518775818
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525155348462307338}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1986113714680101174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525155348462307338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e215610d274c0542ae8c346388b98f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
