@@ -3,3 +3,4 @@
 #Cinemachine
 #TileMap
 #RuleTiles
+#AdvancedPolygonColliders

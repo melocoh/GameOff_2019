@@ -5,22 +5,27 @@ using UnityEngine;
 public class RockSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject rock;
+    [SerializeField] private float dropInterval = 2f;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("DropRock", 1f, 5f);
+        StartCoroutine(DropRock());
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void DropRock()
+    IEnumerator DropRock()
     {
-        Debug.Log("Working");
-        GameObject newBlock = Instantiate(rock, transform.position, Quaternion.identity) as GameObject;
+        while (true) {
+            GameObject newBlock = Instantiate(rock, transform.position, Quaternion.identity) as GameObject;
+            yield return new WaitForSeconds(dropInterval);
+        }
     }
+
+
 }

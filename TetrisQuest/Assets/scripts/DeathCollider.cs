@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class DeathCollider : MonoBehaviour
 {
+    [SerializeField] Scene scene;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -27,7 +29,6 @@ public class DeathCollider : MonoBehaviour
 
     private void Respawn()
     {
-        Debug.Log("Kill me");
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene(scene.name);
     }
 }
