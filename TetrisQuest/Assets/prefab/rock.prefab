@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6369368736410612744}
   - component: {fileID: 2092871479612470733}
   - component: {fileID: 2206077712475047351}
+  - component: {fileID: 7790777906504538192}
+  - component: {fileID: 7589785008208702820}
   m_Layer: 0
   m_Name: hazard-rock
   m_TagString: Hazard
@@ -129,12 +131,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: 0.3125}
-      - {x: -0.3125, y: -0.5}
-      - {x: 0.15625, y: -0.5}
-      - {x: 0.5, y: 0.21875}
-      - {x: 0.5, y: 0.5}
+    - - {x: -0.43126264, y: 0.49595663}
+      - {x: -0.249311, y: -0.13227084}
+      - {x: -0.01733376, y: -0.5727806}
+      - {x: 0.103686064, y: -0.57278067}
+      - {x: 0.44743606, y: 0.49191326}
 --- !u!114 &2206077712475047351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,14 +149,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AlphaTolerance: 20
-  DistanceThreshold: 6
-  Scale: 1
+  DistanceThreshold: 14
+  Scale: 0.808
   Decompose: 0
   RunInPlayMode: 0
   UseCache: 0
   lastAlphaTolerance: 20
-  lastScale: 1
-  lastDistanceThreshold: 6
+  lastScale: 0.808
+  lastDistanceThreshold: 14
   lastDecompose: 0
   lastSprite: {fileID: 21300000, guid: cea58d6e3a901474ab2eeeb43f350fec, type: 3}
   lastRect:
@@ -169,6 +170,32 @@ MonoBehaviour:
   lastFlipX: 0
   lastFlipY: 0
   editorCache: []
+--- !u!114 &7790777906504538192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409393476888815898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6afc4bdb56022a54cbac95eeb06942d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7589785008208702820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409393476888815898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61be379b78f47c544a5af976d55e0987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &9102492519856328144
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,8 +205,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1430423720042890024}
-  - component: {fileID: 8239378327530266083}
-  - component: {fileID: 5127176749607066128}
   m_Layer: 0
   m_Name: rock
   m_TagString: Hazard
@@ -202,29 +227,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8239378327530266083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9102492519856328144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61be379b78f47c544a5af976d55e0987, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene:
-    m_Handle: 0
---- !u!114 &5127176749607066128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9102492519856328144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6afc4bdb56022a54cbac95eeb06942d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

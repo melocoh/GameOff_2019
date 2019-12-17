@@ -3012,6 +3012,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene:
     m_Handle: 0
+--- !u!4 &1348278860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 427581345117225675, guid: 1d9091ec652cac24184a78fd1a0622e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1055132290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1604762041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3213,7 +3219,7 @@ PrefabInstance:
     - target: {fileID: 5032789559693081264, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44653308
+      value: -0.44653332
       objectReference: {fileID: 0}
     - target: {fileID: 5032789559693081264, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
@@ -3233,7 +3239,7 @@ PrefabInstance:
     - target: {fileID: 5032789559693081264, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -14.023884
       objectReference: {fileID: 0}
     - target: {fileID: 5032789559941083340, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
@@ -3293,23 +3299,23 @@ PrefabInstance:
     - target: {fileID: 5032789561343091511, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.25
+      value: -16.16
       objectReference: {fileID: 0}
     - target: {fileID: 5032789561343091511, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.13
+      value: -1.08
       objectReference: {fileID: 0}
     - target: {fileID: 5032789561343091511, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -14.023884
       objectReference: {fileID: 0}
     - target: {fileID: 5032789561343091512, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1348278860}
     - target: {fileID: 5032789561343091512, guid: bad78f64249926c42918b2f1fe6348c4,
         type: 3}
       propertyPath: m_Lens.OrthographicSize
