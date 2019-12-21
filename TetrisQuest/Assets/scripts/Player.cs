@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
         if (col.gameObject.tag == "Hazard")
         {
             isDead = true;
+            Debug.Log("Died");
         }
     }
 

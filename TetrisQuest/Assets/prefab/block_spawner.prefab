@@ -10,14 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1540830492756678479}
   - component: {fileID: 1540830492756678476}
-  - component: {fileID: 1540830492756678478}
   m_Layer: 0
-  m_Name: block_spawner 1
+  m_Name: block_spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1540830492756678479
 Transform:
   m_ObjectHideFlags: 0
@@ -64,18 +63,6 @@ MonoBehaviour:
   grid: 1
   x: 0
   y: 0
---- !u!114 &1540830492756678478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540830492756678477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a20db8fe871ce44fab5aa6136e8df54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1540830492964447886
 GameObject:
   m_ObjectHideFlags: 0
