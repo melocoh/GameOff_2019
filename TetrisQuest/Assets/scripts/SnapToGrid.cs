@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SnapToGrid : MonoBehaviour
 {
-    [SerializeField] public const float GRID = 1f;
+    [SerializeField] public const float GRID = 0.5f;
 
     public static Vector3 mouseGridPos() {
         float recip = 1f / GRID;

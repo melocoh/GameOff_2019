@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1540830492756678479
 Transform:
   m_ObjectHideFlags: 0
@@ -45,13 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blocks:
-  - {fileID: 151634465499759276, guid: d3bfa6e8a00ec4840802cea3210881a4, type: 3}
-  - {fileID: 7197894865243064064, guid: 23d64ab4db7d5b54bb120df9a73a1acd, type: 3}
-  - {fileID: 1002306705570101862, guid: dd373058aba599d41b72e84aff90aaf3, type: 3}
-  - {fileID: 9092527553362933728, guid: f9e58b0881b76c54a825fa736b61d2e6, type: 3}
-  - {fileID: 5634666977739094886, guid: 9a2d2bdb07ff7364687043fe2a090450, type: 3}
-  - {fileID: 3666218980212518748, guid: b65e75af7ce91af478744139ed2f1f76, type: 3}
-  - {fileID: 2819256393017251063, guid: daadb3eb95a9cb84ab270c7ea88fd87a, type: 3}
+  - {fileID: 4074070255320234084, guid: 5a15f9e4ddba1a142a833d37b85dc5ee, type: 3}
+  - {fileID: 603385909699384332, guid: 416994aaef656484e85cf50ff1cd93d1, type: 3}
+  - {fileID: 25529961145439907, guid: 6f5847a71bf31a745b205bc8250191cc, type: 3}
+  - {fileID: 6099026644496501529, guid: e7f9fd640f073fd42af38a5cbe637fca, type: 3}
+  - {fileID: 5397252936925128020, guid: f0e3011067083dd47b7c5a8c3b7a03a4, type: 3}
+  - {fileID: 2053535544987065059, guid: 515450015f6c39642a5b81059eb01c33, type: 3}
+  - {fileID: 8276719277380701643, guid: c12603fd1ff0c964f89a923e557505ec, type: 3}
   blockTrace:
   - {fileID: 2153709291118540347, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
   - {fileID: 5837480812667674064, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
@@ -73,7 +73,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1540830492964447881}
   - component: {fileID: 1540830492964447880}
-  - component: {fileID: 1540830492964447883}
   - component: {fileID: 1540830492964447989}
   - component: {fileID: 1540830492964447882}
   m_Layer: 0
@@ -147,32 +146,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1540830492964447883
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540830492964447886}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!60 &1540830492964447989
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -202,6 +175,9 @@ PolygonCollider2D:
       - {x: 1.96875, y: -0.46875}
       - {x: 1.96875, y: 0.46875}
       - {x: -1.96875, y: 0.46875}
+      - {x: -1.96875, y: -0.40625}
+      - {x: -1.96875, y: -0.40625}
+      - {x: -1.96875, y: -0.40625}
       - {x: -1.96875, y: -0.40625}
 --- !u!114 &1540830492964447882
 MonoBehaviour:

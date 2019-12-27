@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
     void Update() {
         Jump();
         CheckDeath();
+  
     }
 
     void FixedUpdate() {
@@ -59,7 +60,9 @@ public class Player : MonoBehaviour
     }
 
     private void Jump() {
-        if (Input.GetButtonDown("Jump") && myFeet.IsTouchingLayers(LayerMask.GetMask("Ground"))) {
+        if (Input.GetButtonDown("Jump") 
+            && (myFeet.IsTouchingLayers(LayerMask.GetMask("Ground")) 
+            || myFeet.IsTouchingLayers(LayerMask.GetMask("Block")))) {
             Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);
             myRigidBody.velocity += jumpVelocity;
         }

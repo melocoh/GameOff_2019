@@ -28,7 +28,7 @@ public class BlockSpawner : MonoBehaviour
         RotateBlock();
         ChooseBlock();
         MakeBlock();
-        Cursor.visible = false;
+        //Cursor.visible = false;
     }
 
     // Forces the block spawner onto the mouse position
@@ -52,7 +52,7 @@ public class BlockSpawner : MonoBehaviour
 
     private void RotateBlock() {
         if (Input.GetMouseButtonUp(1)) {
-            transform.rotation *= Quaternion.Euler(Vector3.forward * 90);
+            transform.Rotate(0, 0, -90);
         }
     }
 

@@ -13,20 +13,26 @@ public class TestBlockSpawner : MonoBehaviour {
     [SerializeField] private float x = 0f, y = 0f;
 
     private int blockChoice;
+    private int tileIndex;
 
     private Vector2Int[ , ] L_DATA;
 
     void Awake() {
-        L_DATA = new Vector2Int[3, 2];
-        L_DATA[0, 0] = new Vector2Int(-1, 0);
+        mySprite = GetComponentInChildren<SpriteRenderer>();
+        tracers = GetComponentsInChildren<Transform>();
+
     }
 
     // Start is called before the first frame update
     void Start() {
-        mySprite = GetComponentInChildren<SpriteRenderer>();
-        tracers = GetComponentsInChildren<Transform>();
+        tracers[1].transform.position = new Vector3(-0.5f, 0.5f, 0);
+        tracers[2].transform.position = new Vector3(1.5f, 0.5f, 0);
+        tracers[3].transform.position = new Vector3(1.5f, 1.5f, 0);
         blockChoice = 0;
-        Cursor.visible = false;
+
+        foreach(Transform t in tracers) {
+            Debug.Log(t.position);
+        }
     }
 
     // Update is called once per frame
@@ -35,6 +41,7 @@ public class TestBlockSpawner : MonoBehaviour {
         RotateBlock();
         ChooseBlock();
         MakeBlock();
+        Cursor.visible = false;
     }
 
     // Forces the block spawner onto the mouse position
@@ -57,8 +64,9 @@ public class TestBlockSpawner : MonoBehaviour {
     }
 
     private void RotateBlock() {
-        // TODO: Rotate tracer blocks based on what block it is and what position its at
-
+        if (Input.GetMouseButtonUp(1)) {
+            transform.Rotate(0, 0, -90);
+        }
     }
 
     // TODO: Change the tracer block when pressing Q and E
@@ -78,6 +86,8 @@ public class TestBlockSpawner : MonoBehaviour {
         }
     }
 
-
+    private void RepositionTiles() {
+        
+    }
 
 }
