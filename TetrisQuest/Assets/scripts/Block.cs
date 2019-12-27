@@ -18,6 +18,6 @@ public class Block : MonoBehaviour
     }
 
     private void StopMoving() {
-        if ()
+       // if () 
     }
 }
