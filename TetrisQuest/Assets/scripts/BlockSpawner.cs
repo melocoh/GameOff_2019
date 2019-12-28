@@ -13,12 +13,14 @@ public class BlockSpawner : MonoBehaviour
     [SerializeField] private float x=0f, y=0f;
 
     private int blockChoice;
+    private int overlap;
 
     // Start is called before the first frame update
     void Start()
     {
         mySprite = GetComponentInChildren<SpriteRenderer>();
         blockChoice = 0;
+        overlap = 0;
     }
 
     // Update is called once per frame
@@ -28,7 +30,8 @@ public class BlockSpawner : MonoBehaviour
         RotateBlock();
         ChooseBlock();
         MakeBlock();
-        //Cursor.visible = false;
+        BadSpawn();
+        Cursor.visible = false;
     }
 
     // Forces the block spawner onto the mouse position
@@ -37,15 +40,21 @@ public class BlockSpawner : MonoBehaviour
     }
 
     // Checks if the area around the spawner is blocked or not
-    private bool spawnCheck()
-    {
+    private bool SpawnCheck() {
         int layerMask = 1 << 8;
-        Collider2D colliders = Physics2D.OverlapCircle(transform.position, 0.75f, layerMask);
+        Collider2D colliders = Physics2D.OverlapCircle(transform.position, 0.505f, layerMask);
         return (colliders != null);
     }
 
+    private void BadSpawn() {
+        if (SpawnCheck())
+            mySprite.color = Color.red;
+        else
+            mySprite.color = Color.white;
+    }
+
     private void MakeBlock() {
-        if (Input.GetMouseButtonUp(0) && !spawnCheck()) {
+        if (Input.GetMouseButtonUp(0) && !SpawnCheck()) {
             GameObject newBlock = Instantiate(blocks[blockChoice], transform.position, transform.rotation) as GameObject;
         }
     }

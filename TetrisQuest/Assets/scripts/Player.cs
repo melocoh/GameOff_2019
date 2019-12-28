@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     // Config
     [SerializeField] private float runSpeed = 4f;
-    [SerializeField] private float jumpSpeed = 8f;
+    [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private Vector3 startPos;
 
     // State
