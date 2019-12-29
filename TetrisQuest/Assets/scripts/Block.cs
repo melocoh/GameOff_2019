@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    // Cached references
     Rigidbody2D rb;
     PolygonCollider2D polycol;
     Transform trans;
