@@ -39,7 +39,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540830492756678477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 933380d77aa28d34f984983947929ce7, type: 3}
   m_Name: 
@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 1540830492964447880}
   - component: {fileID: 1540830492964447989}
   - component: {fileID: 1540830492964447882}
+  - component: {fileID: 7893154777652457588}
   m_Layer: 0
   m_Name: block_proto
   m_TagString: Untagged
@@ -214,3 +215,34 @@ MonoBehaviour:
   lastFlipX: 0
   lastFlipY: 0
   editorCache: []
+--- !u!114 &7893154777652457588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540830492964447886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933380d77aa28d34f984983947929ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blocks:
+  - {fileID: 4074070255320234084, guid: 5a15f9e4ddba1a142a833d37b85dc5ee, type: 3}
+  - {fileID: 6099026644496501529, guid: e7f9fd640f073fd42af38a5cbe637fca, type: 3}
+  - {fileID: 603385909699384332, guid: 416994aaef656484e85cf50ff1cd93d1, type: 3}
+  - {fileID: 25529961145439907, guid: 6f5847a71bf31a745b205bc8250191cc, type: 3}
+  - {fileID: 5397252936925128020, guid: f0e3011067083dd47b7c5a8c3b7a03a4, type: 3}
+  - {fileID: 2053535544987065059, guid: 515450015f6c39642a5b81059eb01c33, type: 3}
+  - {fileID: 8276719277380701643, guid: c12603fd1ff0c964f89a923e557505ec, type: 3}
+  blockTrace:
+  - {fileID: 2153709291118540347, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: -5977048097019762646, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: 5837480812667674064, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: 6276670823961628359, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: -5323171071083364752, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: -7634870842832262573, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  - {fileID: -1149441229161942921, guid: b099ade5957ac68499b57c349a0917a2, type: 3}
+  grid: 0.5
+  x: 0
+  y: 0

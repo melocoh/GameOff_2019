@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     // Config
     [SerializeField] private float runSpeed = 4f;
-    [SerializeField] private float jumpSpeed = 10f;
+    [SerializeField] private float jumpSpeed = 20f;
     [SerializeField] private Vector3 startPos;
 
     // State
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
         float controlThrow = Input.GetAxis("Horizontal");
         myRigidBody.velocity = new Vector2(controlThrow * runSpeed, myRigidBody.velocity.y);
 
-        bool isMoving = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+        bool isMoving = Mathf.Abs(myRigidBody.velocity.x) > 0;
         myAnimator.SetBool("running", isMoving);
     }
 

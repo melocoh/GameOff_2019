@@ -32,6 +32,7 @@ public class BlockSpawner : MonoBehaviour
         MakeBlock();
         BadSpawn();
         Cursor.visible = false;
+        //Debug.Log(overlap);
     }
 
     // Forces the block spawner onto the mouse position
@@ -39,13 +40,28 @@ public class BlockSpawner : MonoBehaviour
         transform.position = SnapToGrid.mouseGridPos();
     }
 
-    // Checks if the area around the spawner is blocked or not
+    private void OnTriggerEnter2D(Collider2D col) {
+        overlap++;
+        //Debug.Log("Collided with" + col.gameObject.name);
+    }
+
+    private void OnTriggerExit2D(Collider2D col) {
+        overlap--;
+        //Debug.Log("Overlap decrement");
+    }
+
+    // Checks if there's any overlap with another object.
+    // return true when there's overlap
     private bool SpawnCheck() {
         int layerMask = 1 << 8;
         Collider2D colliders = Physics2D.OverlapCircle(transform.position, 0.505f, layerMask);
-        return (colliders != null);
+        return (colliders != null); 
+
+        //return (overlap > 0);
     }
 
+    // 
+    // Returns 
     private void BadSpawn() {
         if (SpawnCheck())
             mySprite.color = Color.red;
@@ -56,6 +72,7 @@ public class BlockSpawner : MonoBehaviour
     private void MakeBlock() {
         if (Input.GetMouseButtonUp(0) && !SpawnCheck()) {
             GameObject newBlock = Instantiate(blocks[blockChoice], transform.position, transform.rotation) as GameObject;
+            //Debug.Log("Created " + newBlock.name);
         }
     }
 
